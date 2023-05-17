@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+:root {
+  --bodyBG: #131518;
+  --containerBG: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  --buttonSubmit: #fc7614;
+  --whiteColor: #ffffff;
+  --lighitTxt: #969fad;
+  --rateNums: #7c8798;
+  --starBg: #262e38;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bodyBG);
+}
+.innerContainer {
+  padding: 24px;
+  width: 279px;
+  background: var(--containerBG);
+  border-radius: 15px;
+}
+.starBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--starBg);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.starImg {
+  width: 13.96px;
+  height: 13.33px;
+}
+.questionText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--whiteColor);
+  margin: 16px 0px 17px;
+}
+.questionDsc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--lighitTxt);
+}
+.rateScores {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.eachScore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--starBg);
+  border-width: 0px;
+  color: var(--rateNums);
+}
+.eachScore:hover {
+  background-color: var(--buttonSubmit);
+  color: var(--whiteColor);
+  cursor: pointer;
+}
+.submitButton {
+  width: 100%;
+  height: 45px;
+  background: var(--buttonSubmit);
+  border-radius: 22.5px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.86667px;
+  color: var(--whiteColor);
+  border-width: 0px;
+  margin-bottom: 8px;
+}
+.submitButton:hover {
+  background: var(--whiteColor);
+  color: var(--buttonSubmit);
+  cursor: pointer;
+}
+.eachScore.selected {
+  background-color: var(--rateNums);
+  color: var(--whiteColor);
+}
+.feedBack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tanksImg {
+  width: 144px;
+  height: 96px;
+  margin: 12px 0 0;
+}
+.scoreField {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--buttonSubmit);
+  background-color: var(--starBg);
+  padding: 5px 12px;
+  border-radius: 22.5px;
+  margin: 24px 0;
+}
+.thanksText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--whiteColor);
+  margin: 0px;
+}
+.thanksParagraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--lighitTxt);
+  margin: 0px;
+  margin: 17px 0 13px;
+}
