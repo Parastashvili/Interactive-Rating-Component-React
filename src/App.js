@@ -43,7 +43,7 @@ function App() {
 function FeedBack() {
   return (
     <div className="feedBack">
-      <img className="tanksImg" src={feedBackIco} alt="thank-you" />
+      <img className="thanksImg" src={feedBackIco} alt="thank-you" />
       <h5 className="scoreField">You selected {score} out of 5</h5>
       <h2 className="thanksText">{thanksForm.thanksText}</h2>
       <p className="thanksParagraph">{thanksForm.thanksParagraph}</p>

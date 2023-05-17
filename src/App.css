@@ -69,6 +69,11 @@ body {
   background-color: var(--starBg);
   border-width: 0px;
   color: var(--rateNums);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.175px;
 }
 .eachScore:hover {
   background-color: var(--buttonSubmit);
@@ -103,7 +108,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.tanksImg {
+.thanksImg {
   width: 144px;
   height: 96px;
   margin: 12px 0 0;
@@ -135,4 +140,54 @@ body {
   color: var(--lighitTxt);
   margin: 0px;
   margin: 17px 0 13px;
+}
+@media (min-width: 1440px) {
+  .innerContainer {
+    padding: 32px;
+    width: 348px;
+  }
+  .starBox {
+    width: 48px;
+    height: 48px;
+  }
+  .starImg {
+    width: 16.75px;
+    height: 16px;
+  }
+  .questionText {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .questionDsc {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .eachScore {
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .submitButton {
+    line-height: 19px;
+    letter-spacing: 2px;
+  }
+  .thanksImg {
+    width: 160px;
+    height: 108px;
+    margin: 12px 0 0;
+  }
+  .scoreField {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .thanksText {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .thanksParagraph {
+    font-size: 15px;
+    line-height: 24px;
+  }
 }
